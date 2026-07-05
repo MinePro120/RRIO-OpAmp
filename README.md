@@ -1,5 +1,5 @@
 ## 1.8 V Rail-to-Rail I/O OpAmp
-___
+
 ### Features
 * Realized in GPDK 45 nm CMOS process
 * Folded cascode OTA topology
@@ -7,9 +7,12 @@ ___
 * 58 MHz GBW (Miller compensated)
 * 72&deg; phase margin
 * 11 dB gain margin
-* --287 uV input offset voltage
+* -287 uV input offset voltage
 
 ### Figures
+#### Schematic
+![](./img/schematic.png)
+
 #### Open-Loop Gain Frequency Response
 ![](./img/gain-frequency.png)
 
@@ -24,7 +27,7 @@ ___
 
 
 ### Corners (at -40 and 125 &deg;C)
-|                      | Min   | Nominal | Max   | TT (-40) | TT (125) | FF (-40) | FF (125) | SS (-40) | SS (125) | SF (-40) | SF (125) | FS (-40) | FF (125) |
+|                      | Min   | Nominal | Max   | TT (-40) | TT (125) | FF (-40) | FF (125) | SS (-40) | SS (125) | SF (-40) | SF (125) | FS (-40) | FS (125) |
 |----------------------|-------|---------|-------|----------|----------|----------|----------|----------|----------|----------|----------|----------|----------|
 | DC Gain (dB)         | 43.87 | 62.47   | 74.61 | 64.57    | 54.46    | 74.61    | 62.26    | 58.23    | 45.12    | 69.33    | 60.21    | 59.06    | 43.87    |
 | GBW (MHz)            | 28.21 | 58.24   | 115.9 | 54.78    | 38.59    | 115.9    | 71.67    | 40.68    | 28.21    | 48.55    | 33.35    | 47.69    | 34.29    |
